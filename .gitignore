@@ -1,14 +1,19 @@
+# Ambientes virtuais e cache Python
 .venv/
+venv/
 __pycache__/
-**/__pycache__/
 .pytest_cache/
 
-leads_enriquecidos_cache.jsonl
-output/
-**/output/
-
+# Chaves e configurações locais
 .env
 
+# Pastas de dados e saídas
+10-2026/
+cnpj_zips/
+output/
+
+# Arquivos de dados e caches pesados
+leads_enriquecidos_cache.jsonl
 *.csv
-*xlsx
-*zip
+*.xlsx
+*.zip
